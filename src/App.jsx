@@ -3,6 +3,8 @@ import Header from './Components/Header';
 import Navbar from './Components/Navbar';
 import Marketing from './Components/Marketing';
 import Design from './Components/design';
+import Customer from './Components/Customer';
+import Work from './Components/Work'
 function App() {
   return (
     <>
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Marketing />
       <Design />
+      <Customer />
+      <Work/>
     </>
   );
 }
